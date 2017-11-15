@@ -142,7 +142,7 @@ _electron.app.on("ready", () => {
   }));
 
   if (_env.default.name === "development") {
-    mainWindow.openDevTools();
+   // mainWindow.openDevTools();
   }
 });
 
