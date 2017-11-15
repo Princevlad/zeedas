@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Different ngRoute animations</title>
+  
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  
+<div ng-app="app" ng-controller="ctrl" ng-class="animation">
+
+  <div class="links">
+    <a href="#/first">First</a>
+    <a href="#/second">Second</a>
+    <a href="#/third">Third</a>
+  </div>
+
+  <div ng-view class="view">
+
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-route.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-animate.min.js"></script>
+  
+    <script  src="js/ang.js"></script>
+
+</body>
+</html>
