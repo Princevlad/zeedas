@@ -22,7 +22,7 @@ app.on('ready', function() {
 
 
 //   Open chrome developer tool
-//    mainWindow.openDevTools();
+    mainWindow.openDevTools();
 
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/app/app.html');

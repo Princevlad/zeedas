@@ -5,7 +5,8 @@
   "main": "main.js",
   "dependencies": {
     "node-cmd": "^3.0.0",
-    "pretty-bytes": "^2.0.1"
+    "pretty-bytes": "^2.0.1",
+    "shell": "^0.3.2"
   },
   "devDependencies": {
     "electron-prebuilt": "^0.35.2"

@@ -13,16 +13,17 @@
       template: "<div class='box'>Second</div>",
       animation: 'second'
     })
-    .when('/third',{
-      template: "<div class='box'>Third</div>",
+    .when('/profile',{
+      template: "./templates/profile.html",
       animation: 'third'
-    }) .when('/fourth',{
+    }) .when('/dashboard',{
       templateUrl: "./templates/dashboard.html",
       animation: 'first'
     })
     .otherwise({
       templateUrl: "./templates/login.html",
-      animation: 'welcome'
+      animation: 'welcome',
+      controller:'Auth'
     });
 	});
   

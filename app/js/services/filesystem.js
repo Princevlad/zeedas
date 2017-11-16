@@ -121,6 +121,4 @@ app.service('filesystem', function ($scope, $rootScope, command) {
 	}
 
 
-}
-
 });
